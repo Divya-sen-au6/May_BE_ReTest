@@ -32,5 +32,5 @@ app.use(userNormalRoute);
 app.use(apiNormalRoute);
 app.use(urlRoutes);
 
-var port = process.env.port || 8080
-app.listen(port, ()=>console.log('Server is up at port 8080'))
+var port = process.env.PORT || 8080
+app.listen(port, ()=>console.log(`Server is up at port ${port}`))

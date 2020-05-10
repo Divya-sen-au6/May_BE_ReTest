@@ -2,9 +2,8 @@
   "name": "latesttest",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "node server.js",
   "scripts": {
-    "dev": "nodemon server.js",
     "start": "node server.js"
   },
   "author": "divya",
@@ -16,8 +15,5 @@
     "hbs": "^4.1.1",
     "mongoose": "^5.9.13",
     "shortid": "^2.2.15"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.3"
   }
 }
